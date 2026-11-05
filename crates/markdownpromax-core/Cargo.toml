@@ -1,0 +1,16 @@
+[package]
+name = "markdownpromax-core"
+description = "文件层内核：编码探测、行尾归一、原子写、冲突检测"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+chardetng = "1.0.0"
+encoding_rs = "0.8.44"
+thiserror.workspace = true
+
+[dev-dependencies]
+tempfile = "3"

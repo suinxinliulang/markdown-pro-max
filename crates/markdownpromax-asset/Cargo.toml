@@ -1,0 +1,17 @@
+[package]
+name = "markdownpromax-asset"
+description = "远程图片代理内核：URL 策略、磁盘缓存、可注入的抓取器"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+markdownpromax-core.workspace = true
+sha2 = "0.10.9"
+thiserror.workspace = true
+url = "2.5.8"
+
+[dev-dependencies]
+tempfile = "3"

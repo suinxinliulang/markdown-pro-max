@@ -1,0 +1,6 @@
+/target
+/node_modules
+/dist
+/.pnpm-store
+/.pi
+/src-tauri/gen/schemas
